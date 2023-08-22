@@ -1,0 +1,32 @@
+{
+  "name": "hansha",
+  "version": "1.0.0",
+  "description": "Group chat Application!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Bishal Bosu",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "cron": "^2.3.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.1.5",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.2.1",
+    "nodemon": "^2.0.22",
+    "path": "^0.12.7",
+    "razorpay": "^2.8.6",
+    "sequelize": "^6.31.0",
+    "sib-api-v3-sdk": "^8.5.0",
+    "socket.io": "^4.6.1",
+    "uuid": "^9.0.0"
+  }
+}
